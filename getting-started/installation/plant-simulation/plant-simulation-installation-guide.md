@@ -28,7 +28,6 @@ This guide provides step-by-step instructions for configuring Siemens Plant Simu
 1. Download Plant Simulation installer from Siemens portal
 2. Run installer as Administrator
 3. Follow installation wizard with default settings
-4. **Do not start the software yet** - license configuration required first
 
 ### Step 2: License Configuration
 
