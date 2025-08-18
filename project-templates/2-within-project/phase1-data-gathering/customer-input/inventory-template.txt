@@ -1,0 +1,8 @@
+InventoryId,PartId,LocationId,Quantity,QuantityUnits,UnitCost,CostUnits,LastUpdated,InventoryType,Status,MinLevel,MaxLevel,ReorderPoint,SafetyStock,Notes
+INV-001,PART-001,LOC-001,85,EA,22.75,USD,2025-08-18T08:00:00,RawMaterial,Available,10,100,25,15,Steel plate inventory
+INV-002,PART-002,LOC-002,12,EA,180.00,USD,2025-08-18T08:00:00,PurchasedPart,Available,5,50,15,10,Pump casing inventory
+INV-003,PART-003,LOC-003,8,EA,120.00,USD,2025-08-18T08:00:00,SubAssembly,Available,2,20,8,5,Impeller inventory
+INV-004,PART-005,LOC-004,145,EA,12.50,USD,2025-08-18T08:00:00,Component,Available,20,200,50,30,Bearing inventory
+INV-005,PART-007,LOC-005,2450,EA,0.85,USD,2025-08-18T08:00:00,Fastener,Available,500,5000,1500,1000,Bolt inventory
+INV-006,PART-008,LOC-006,25,LB,6.00,USD,2025-08-18T08:00:00,Consumable,Available,10,100,30,20,Welding wire inventory
+INV-007,PART-009,LOC-007,8,QT,50.00,USD,2025-08-18T08:00:00,Consumable,Available,2,20,8,5,Paint primer inventory

@@ -1,0 +1,11 @@
+LineItemId,BOMId,ComponentPartId,Quantity,QuantityUnits,Position,AssemblyLevel,ScrapAllowance,IsOptional,EffectiveDate,ExpirationDate,ReferenceDesignator,Notes
+BLI-001,BOM-001,PART-002,1,EA,1,1,2.0,False,2024-01-01,2025-12-31,A1,Main pump casing
+BLI-002,BOM-001,PART-003,1,EA,2,1,1.5,False,2024-01-01,2025-12-31,A2,Impeller assembly
+BLI-003,BOM-001,PART-004,1,EA,3,1,1.0,False,2024-01-01,2025-12-31,A3,Drive shaft
+BLI-004,BOM-001,PART-005,2,EA,4,1,0.5,False,2024-01-01,2025-12-31,B1-B2,Shaft bearings
+BLI-005,BOM-001,PART-006,1,EA,5,1,1.0,False,2024-01-01,2025-12-31,S1,Mechanical seal
+BLI-006,BOM-001,PART-007,8,EA,6,2,2.0,False,2024-01-01,2025-12-31,F1-F8,Casing bolts
+BLI-007,BOM-002,VANE-125-C,5,EA,1,2,2.0,False,2024-01-01,2025-12-31,V1-V5,Impeller vanes
+BLI-008,BOM-002,HUB-200-A,1,EA,2,2,1.0,False,2024-01-01,2025-12-31,H1,Impeller hub
+BLI-009,BOM-003,PART-004,1,EA,1,1,1.0,False,2024-01-01,2025-12-31,S1,Main shaft
+BLI-010,BOM-003,PART-005,2,EA,2,1,0.5,False,2024-01-01,2025-12-31,B1-B2,Support bearings

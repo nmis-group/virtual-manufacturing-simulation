@@ -1,0 +1,11 @@
+OperationId,ProcessPlanId,OperationNumber,OperationName,Description,ResourceId,SetupTime,SetupTimeUnits,ProcessingTime,ProcessingTimeUnits,TeardownTime,TeardownTimeUnits,CostPerUnit,CostUnits,PredecessorOp,SuccessorOp,FixtureId,ToolId,QualityRequirement,Notes
+OP-001,PP-001,010,Material Cutting,Laser cut steel plates,RES-001,15,minutes,8,minutes,2,minutes,12.50,USD,None,OP-002,FIX-001,TOOL-001,DimensionalCheck,3000x1500mm envelope constraint
+OP-002,PP-001,020,Rough Machining,CNC rough milling,RES-002,30,minutes,25,minutes,5,minutes,28.75,USD,OP-001,OP-003,FIX-002,TOOL-002,DimensionalCheck,1270x508x635mm envelope constraint
+OP-003,PP-001,030,Finish Machining,CNC finish milling,RES-002,20,minutes,35,minutes,3,minutes,35.25,USD,OP-002,OP-004,FIX-002,TOOL-003,SurfaceFinish,Tight tolerance requirements
+OP-004,PP-001,040,Turning Operation,Lathe shaft turning,RES-006,25,minutes,18,minutes,3,minutes,22.50,USD,OP-003,OP-005,FIX-003,TOOL-004,DimensionalCheck,200mm dia x 500mm length constraint
+OP-005,PP-001,050,Surface Grinding,Precision grinding,RES-007,15,minutes,22,minutes,2,minutes,18.75,USD,OP-004,OP-006,FIX-004,TOOL-005,SurfaceFinish,840x400x560mm envelope constraint
+OP-006,PP-001,060,Welding Assembly,MIG welding process,RES-003,20,minutes,45,minutes,5,minutes,42.25,USD,OP-005,OP-007,FIX-005,TOOL-006,VisualInspection,2000x1500x1200mm envelope constraint
+OP-007,PP-001,070,Surface Treatment,Paint and finish,RES-004,25,minutes,30,minutes,10,minutes,28.50,USD,OP-006,OP-008,FIX-006,TOOL-007,ColorMatch,4000x3000x2500mm envelope constraint
+OP-008,PP-001,080,Final Assembly,Component assembly,RES-005,10,minutes,55,minutes,3,minutes,15.25,USD,OP-007,OP-009,FIX-007,TOOL-008,FitCheck,2000x1500x800mm envelope constraint
+OP-009,PP-001,090,Quality Inspection,CMM inspection,RES-008,8,minutes,25,minutes,2,minutes,12.50,USD,OP-008,OP-010,FIX-008,TOOL-009,FullInspection,700x1000x600mm envelope constraint
+OP-010,PP-001,100,Packaging,Final packaging,RES-005,5,minutes,12,minutes,1,minutes,4.25,USD,OP-009,None,FIX-009,TOOL-010,VisualCheck,3000x1000x500mm envelope constraint

@@ -1,0 +1,13 @@
+Level,Part_Number,Description,Quantity,UOM,Make_Buy,Supplier,Supplier_PN,Unit_Cost,Extended_Cost,Lead_Time_Days,Process_Time_Min,Setup_Time_Min,Material,Dimensions,Weight_lbs,Quality_Standard,Notes
+0,PUMP-1000-A,Centrifugal Pump Assembly,1,EA,Make,Internal,-,450.00,450.00,15,180,60,Assembly,12x8x10 in,45.2,ASME B73.1,Main pump assembly
+1,IMP-500-B,Impeller Assembly,1,EA,Make,Internal,-,120.00,120.00,10,45,30,316 SS,6.5x1.2 in,8.5,ASTM A240,5-vane impeller
+2,VANE-125-C,Impeller Vane,5,EA,Make,Internal,-,15.00,75.00,7,20,15,316 SS,3.2x0.5x0.125 in,0.8,ASTM A240,CNC machined
+2,HUB-200-A,Impeller Hub,1,EA,Buy,Precision Castings Inc,PC-IH-200,45.00,45.00,14,10,5,316 SS,4.0x2.5 in,3.2,ASTM A743,Investment cast
+1,CASE-300-A,Pump Casing,1,EA,Buy,Industrial Castings LLC,IC-PC-300,180.00,180.00,21,90,45,Cast Iron,10x8x6 in,25.0,ASTM A48,Sand cast machined
+1,SHAFT-400-B,Drive Shaft,1,EA,Make,Internal,-,85.00,85.00,8,60,20,4140 Steel,12x1.25 in dia,6.8,AISI 4140,Heat treated
+2,KEY-050-A,Shaft Key,1,EA,Buy,McMaster-Carr,98535A140,3.25,3.25,3,2,0,1018 Steel,0.25x0.125x2 in,0.1,ASME B17.1,Standard square key
+1,BEAR-600-A,Ball Bearing Set,2,EA,Buy,SKF,6205-2RS1,12.50,25.00,7,5,2,Steel/Rubber,52x25x15 mm,0.3,ISO 492,Deep groove sealed
+1,SEAL-700-B,Mechanical Seal,1,EA,Buy,John Crane,JC-T1-125,95.00,95.00,12,15,10,Silicon Carbide,1.25 in bore,0.8,API 682,Type 1 mechanical seal
+2,BOLT-010-A,Hex Cap Screw,8,EA,Buy,Fastenal,0131756,0.85,6.80,2,1,0,Grade 5 Steel,M8x1.25x30mm,0.02,ISO 4762,Hex socket head
+1,GSKT-800-A,Base Gasket,1,EA,Buy,Garlock,35105-0125,8.50,8.50,5,3,1,Nitrile Rubber,10x8x0.125 in,0.2,ASTM D2000,Flange gasket
+1,BOLT-020-B,Casing Bolts,12,EA,Buy,Fastenal,0149823,1.25,15.00,2,1,0,Grade 8 Steel,M10x1.5x40mm,0.04,ISO 4762,Allen head bolts

@@ -1,0 +1,11 @@
+PartId,PartName,PartNumber,PartType,Description,Weight,WeightUnits,Volume,VolumeUnits,UnitCost,CostUnits,InventoryPolicy,MinInventoryLevel,MaxInventoryLevel,ReorderPoint,LeadTime,LeadTimeUnits,QualityMeasure,ScrapRate,ReworkRate,Notes
+PART-001,Steel Plate,STL-PLT-025,RawMaterial,A36 Steel Plate 1/4 inch,12.5,kg,0.008,m3,22.75,USD,MinMax,10,100,25,7,days,DimensionalCheck,2.0,1.0,Standard structural steel
+PART-002,Pump Casing,CASE-300-A,Assembly,Cast Iron Pump Casing,25.0,kg,0.012,m3,180.00,USD,EOQ,5,50,15,21,days,PressureTest,1.5,2.5,Sand cast and machined
+PART-003,Impeller,IMP-500-B,SubAssembly,5-Vane Centrifugal Impeller,8.5,kg,0.003,m3,120.00,USD,JIT,2,20,8,10,days,BalanceTest,1.0,3.0,Precision balanced
+PART-004,Drive Shaft,SHAFT-400-B,Component,Hardened Steel Drive Shaft,6.8,kg,0.001,m3,85.00,USD,Safety,3,30,10,8,days,RunoutCheck,0.5,1.5,Heat treated 4140
+PART-005,Ball Bearing,BEAR-600-A,Component,Deep Groove Ball Bearing,0.3,kg,0.0001,m3,12.50,USD,Kanban,20,200,50,7,days,VibrationalTest,0.2,0.5,Sealed bearing
+PART-006,Mechanical Seal,SEAL-700-B,Component,Silicon Carbide Seal,0.8,kg,0.0002,m3,95.00,USD,MinMax,3,15,8,12,days,LeakTest,1.0,2.0,API 682 compliant
+PART-007,Hex Bolt M8,BOLT-M8-030,Fastener,Grade 8.8 Hex Bolt,0.02,kg,0.000001,m3,0.85,USD,Bulk,500,5000,1500,2,days,TensileTest,1.0,0.5,Standard fastener
+PART-008,Welding Wire,WELD-W-706,Consumable,ER70S-6 MIG Wire,1.0,kg,0.0005,m3,6.00,USD,Consignment,10,100,30,3,days,ChemicalAnalysis,5.0,0,Consumable material
+PART-009,Paint Primer,PNT-PRM-001,Consumable,Epoxy Primer Coating,1.2,kg,0.001,m3,50.00,USD,JIT,2,20,8,5,days,AdhesionTest,8.0,2.0,Two-part epoxy
+PART-010,Finished Product,PUMP-1000-A,Product,Complete Centrifugal Pump,45.2,kg,0.096,m3,850.00,USD,MTO,0,10,3,30,days,PerformanceTest,0.5,1.0,Customer order driven

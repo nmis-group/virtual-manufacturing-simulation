@@ -1,0 +1,6 @@
+ProcessPlanId,ProcessPlanName,PartId,Description,TotalLeadTime,LeadTimeUnits,TotalCost,CostUnits,YieldRate,ScrapRate,AlternativePlan,Priority,EffectiveDate,ExpirationDate,Notes
+PP-001,Pump Assembly Process,PART-010,Complete manufacturing process for centrifugal pump,35,hours,785.50,USD,96.5,3.5,PP-001-ALT,1,2024-01-01,2025-12-31,Primary process plan
+PP-002,Impeller Manufacturing,PART-003,5-vane impeller manufacturing process,8,hours,115.25,USD,97.0,3.0,PP-002-ALT,1,2024-01-01,2025-12-31,CNC and welding process
+PP-003,Shaft Manufacturing,PART-004,Drive shaft turning and grinding,6,hours,78.50,USD,98.0,2.0,None,1,2024-01-01,2025-12-31,Lathe and grind process
+PP-004,Casing Procurement,PART-002,External supplier casting process,21,days,175.00,USD,98.5,1.5,PP-004-ALT,1,2024-01-01,2025-12-31,Outsourced to foundry
+PP-005,Final Assembly Process,PART-010,Assembly and test operations,4,hours,125.75,USD,99.0,1.0,None,1,2024-01-01,2025-12-31,Manual assembly process

@@ -1,0 +1,29 @@
+Type,Operation_Number,Routing_Link,Description,Work_Center,Part_Number,Quantity,UOM,Setup_Time_Min,Cycle_Time_Min,Queue_Time_Min,Move_Time_Min,Labor_Rate_Per_Hour,Machine_Rate_Per_Hour,Total_Cost,Supplier,Lead_Time_Days,Issue_Method,Scrap_Percent,Yield_Percent,Concurrent_Ops,Ref_Designator,Quality_Check,Notes
+Operation,010,RL-010,Material Prep & Cutting,WC-CUT-01,-,1,LOT,15,8,30,5,25.00,45.00,0,-,0,-,-,98.5,None,-,Dimensional,Laser cutting of steel plates
+Component,010,RL-010,Steel Plate 1/4 inch,WC-CUT-01,STL-PLT-025,2,EA,0,0,0,0,0,0,45.50,Steel Supply Co,7,Backflush,2.0,98.0,-,A1,-,A36 Steel 12x8 inch
+Component,010,RL-010,Cutting Fluid,WC-CUT-01,CUT-FLD-001,0.5,GAL,0,0,0,0,0,0,3.25,Industrial Fluids,3,Manual,0,100,-,-,-,Biodegradable cutting fluid
+Operation,020,RL-020,Machining - Drilling & Tapping,WC-MACH-02,-,1,LOT,20,12,45,10,28.00,55.00,0,-,0,-,-,97.0,None,-,Dimensional,CNC drilling and tapping operations
+Component,020,RL-020,Drill Bit 1/4 inch,WC-MACH-02,TOOL-DB-025,0.1,EA,0,0,0,0,0,0,2.50,Cutting Tools Inc,5,Manual,10.0,90.0,-,-,-,HSS drill bit consumable
+Component,020,RL-020,Tap M8x1.25,WC-MACH-02,TOOL-TAP-M8,0.05,EA,0,0,0,0,0,0,1.25,Cutting Tools Inc,5,Manual,5.0,95.0,-,-,-,M8 tap consumable
+Component,020,RL-020,Cutting Oil,WC-MACH-02,CUT-OIL-002,0.2,GAL,0,0,0,0,0,0,4.80,Industrial Fluids,3,Backflush,0,100,-,-,-,High-performance cutting oil
+Operation,030,RL-030,Welding Assembly,WC-WELD-01,-,1,LOT,25,35,60,15,32.00,25.00,0,-,0,-,-,96.0,None,-,Visual,MIG welding of frame components
+Component,030,RL-030,Welding Wire ER70S-6,WC-WELD-01,WELD-W-706,0.75,LB,0,0,0,0,0,0,4.50,Welding Supply,3,Backflush,3.0,97.0,-,-,-,0.035 inch diameter
+Component,030,RL-030,Shielding Gas - Argon/CO2,WC-WELD-01,GAS-AR-CO2,15,CF,0,0,0,0,0,0,8.75,Industrial Gases,2,Backflush,1.0,99.0,-,-,-,75% Argon 25% CO2 mix
+Component,030,RL-030,Welding Rod Backup,WC-WELD-01,WELD-ROD-01,0.1,LB,0,0,0,0,0,0,1.80,Welding Supply,3,Manual,0,100,-,-,-,Emergency backup rod
+Operation,040,RL-040,Surface Treatment,WC-PAINT-01,-,1,LOT,10,20,120,20,22.00,15.00,0,-,0,-,-,95.0,None,-,Visual,Sandblast prime and paint
+Component,040,RL-040,Abrasive Media,WC-PAINT-01,SAND-MED-001,5,LB,0,0,0,0,0,0,7.50,Abrasive Supply,4,Backflush,20.0,80.0,-,-,-,Aluminum oxide grit
+Component,040,RL-040,Primer Coating,WC-PAINT-01,PNT-PRM-001,0.25,QT,0,0,0,0,0,0,12.50,Paint Supply Co,5,Manual,5.0,95.0,-,-,-,Epoxy primer
+Component,040,RL-040,Finish Paint - Blue,WC-PAINT-01,PNT-FIN-BLU,0.3,QT,0,0,0,0,0,0,18.75,Paint Supply Co,5,Manual,8.0,92.0,-,-,-,High-durability enamel
+Component,040,RL-040,Thinner,WC-PAINT-01,THIN-001,0.1,QT,0,0,0,0,0,0,5.25,Paint Supply Co,5,Manual,0,100,-,-,-,Paint thinner
+Operation,050,RL-050,Final Assembly,WC-ASSY-01,-,1,LOT,5,45,30,10,24.00,8.00,0,-,0,-,-,99.0,None,-,Functional,Final assembly and testing
+Component,050,RL-050,Hex Bolts M8x30,WC-ASSY-01,BOLT-M8-030,8,EA,0,0,0,0,0,0,6.40,Fastener Corp,2,Pick_List,1.0,99.0,-,B1-B8,-,Grade 8.8 hex bolts
+Component,050,RL-050,Lock Washers M8,WC-ASSY-01,WASH-LCK-M8,8,EA,0,0,0,0,0,0,1.60,Fastener Corp,2,Pick_List,1.0,99.0,-,W1-W8,-,Spring lock washers
+Component,050,RL-050,Thread Locker,WC-ASSY-01,ADHV-TL-242,0.05,OZ,0,0,0,0,0,0,2.25,Adhesive Supply,3,Manual,0,100,-,-,-,Loctite 242 equivalent
+Component,050,RL-050,Assembly Grease,WC-ASSY-01,GREASE-001,0.1,OZ,0,0,0,0,0,0,1.80,Lubricant Supply,4,Manual,0,100,-,-,-,High-temp bearing grease
+Operation,060,RL-060,Quality Inspection,WC-QC-01,-,1,LOT,2,15,15,5,30.00,0,0,-,0,-,-,100,None,-,Full_Inspection,Dimensional and functional testing
+Component,060,RL-060,Test Fixture,WC-QC-01,FIXTURE-QC-01,0.01,EA,0,0,0,0,0,0,5.00,Internal,-,Manual,0,100,-,-,-,Reusable test fixture allocation
+Operation,070,RL-070,Packaging,WC-PACK-01,-,1,LOT,3,10,10,5,18.00,5.00,0,-,0,-,-,99.5,None,-,Visual,Final packaging and labeling
+Component,070,RL-070,Cardboard Box,WC-PACK-01,BOX-PUMP-001,1,EA,0,0,0,0,0,0,3.50,Packaging Corp,4,Pick_List,2.0,98.0,-,-,-,Custom pump box
+Component,070,RL-070,Foam Insert,WC-PACK-01,FOAM-INS-001,1,EA,0,0,0,0,0,0,2.25,Packaging Corp,4,Pick_List,1.0,99.0,-,-,-,Protective foam insert
+Component,070,RL-070,Instruction Manual,WC-PACK-01,DOC-MAN-001,1,EA,0,0,0,0,0,0,0.75,Internal,-,Pick_List,0,100,-,-,-,Installation instructions
+Component,070,RL-070,Shipping Label,WC-PACK-01,LBL-SHIP-001,1,EA,0,0,0,0,0,0,0.25,Label Supply,2,Pick_List,5.0,95.0,-,-,-,Address and handling labels

@@ -1,0 +1,4 @@
+ScheduleId,ScheduleName,ScheduleType,Description,StartDate,EndDate,TimeUnits,Status,Priority,Notes
+SCH-001,Weekly Production Schedule,ProductionSchedule,Week 33 production plan,2025-08-18,2025-08-24,hours,Active,1,Standard weekly schedule
+SCH-002,Maintenance Schedule,MaintenanceSchedule,Preventive maintenance plan,2025-08-18,2025-08-31,days,Active,2,Quarterly maintenance cycle
+SCH-003,Resource Availability,ResourceSchedule,Work center availability,2025-08-18,2025-08-24,hours,Active,1,Standard 2-shift operation

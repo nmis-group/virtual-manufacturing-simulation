@@ -1,0 +1,4 @@
+BOMId,BOMName,ParentPartId,Description,EffectiveDate,ExpirationDate,BOMType,Revision,Status,TotalQuantity,QuantityUnits,Notes
+BOM-001,Pump Assembly BOM,PART-010,Complete BOM for centrifugal pump,2024-01-01,2025-12-31,Manufacturing,Rev-C,Active,1,EA,Multi-level manufacturing BOM
+BOM-002,Impeller Sub-Assembly,PART-003,Impeller component BOM,2024-01-01,2025-12-31,Manufacturing,Rev-B,Active,1,EA,5-vane impeller assembly
+BOM-003,Drive System BOM,PART-004,Shaft and bearing assembly,2024-01-01,2025-12-31,Manufacturing,Rev-A,Active,1,EA,Complete drive system

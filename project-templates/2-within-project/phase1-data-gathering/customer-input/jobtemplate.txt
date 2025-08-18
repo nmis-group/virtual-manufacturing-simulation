@@ -1,0 +1,5 @@
+JobId,JobName,JobType,PartId,Quantity,QuantityUnits,Priority,DueDate,StartDate,Status,ProcessPlanId,CurrentOperation,ResourceId,EstimatedDuration,DurationUnits,ActualDuration,CompletionPercent,Notes
+JOB-001,Pump Order 12345,ProductionOrder,PART-010,5,EA,1,2025-08-25,2025-08-18,InProgress,PP-001,OP-003,RES-002,35,hours,18,45,Customer order ABC Corp
+JOB-002,Impeller Batch 67,ProductionOrder,PART-003,20,EA,2,2025-08-22,2025-08-19,Queued,PP-002,OP-001,RES-001,12,hours,0,0,Stock replenishment
+JOB-003,Shaft Production 89,ProductionOrder,PART-004,10,EA,3,2025-08-24,2025-08-20,Scheduled,PP-003,None,None,8,hours,0,0,Planned production
+JOB-004,Maintenance Task M01,Maintenance,RES-002,1,EA,1,2025-08-19,2025-08-19,Scheduled,MAINT-001,None,RES-002,4,hours,0,0,Preventive maintenance

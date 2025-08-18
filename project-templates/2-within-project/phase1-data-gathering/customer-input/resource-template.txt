@@ -1,0 +1,11 @@
+ResourceId,ResourceName,ResourceType,Description,Capacity,CapacityUnits,CostPerTimeUnit,CostTimeUnits,SetupTime,SetupTimeUnits,ProcessingRate,RateUnits,AvailabilityFactor,MTBFHours,MTTRHours,SkillLevel,SkillType,WorkEnvelopeX,WorkEnvelopeY,WorkEnvelopeZ,EnvelopeUnits,MaxSpeed,SpeedUnits,PowerRating,PowerUnits,FloorSpaceX,FloorSpaceY,Notes
+RES-001,Laser Cutting Station,Machine,Fiber Laser Cutter,1,units,45.00,hour,15,minutes,25000,mm/min,0.95,2500,4,0,None,3000,1500,150,mm,25000,mm/min,6.0,kW,4500,3200,Trumpf TruLaser 3030
+RES-002,CNC Machining Center,Machine,Vertical Milling Machine,1,units,55.00,hour,30,minutes,25400,mm/min,0.92,1800,6,0,None,1270,508,635,mm,8100,RPM,22.4,kW,2800,2100,Haas VF-4 with 20-tool ATC
+RES-003,MIG Welding Station,Machine,MIG Welding Cell,1,units,25.00,hour,20,minutes,15,in/min,0.88,3000,3,0,None,2000,1500,1200,mm,0,N/A,15.0,kW,3000,2500,Lincoln PowerWave S350
+RES-004,Paint Booth,Machine,Spray Paint Booth,1,units,15.00,hour,25,minutes,30,parts/hour,0.90,4000,8,0,None,4000,3000,2500,mm,60,PSI,8.0,kW,5000,4000,Downdraft paint booth
+RES-005,Assembly Station,Workstation,Manual Assembly Table,1,units,8.00,hour,5,minutes,12,parts/hour,0.98,8760,1,0,None,2000,1500,800,mm,0,N/A,2.0,kW,2500,2000,Pneumatic tool station
+RES-006,CNC Lathe,Machine,Turning Center,1,units,48.00,hour,25,minutes,1500,mm/min,0.93,2200,5,0,None,200,0,500,mm,4000,RPM,18.5,kW,2500,1800,8-inch chuck capacity
+RES-007,Surface Grinder,Machine,Precision Grinder,1,units,42.00,hour,15,minutes,8000,mm/min,0.91,3500,6,0,None,840,400,560,mm,1800,RPM,11.0,kW,3200,2100,Magnetic chuck grinder
+RES-008,Quality Inspector,Worker,QC Technician,1,units,30.00,hour,8,minutes,15,inspections/hour,0.99,0,0,5,QualityControl,700,1000,600,mm,0,N/A,0,kW,0,0,CMM certified operator
+RES-009,Machine Operator,Worker,CNC Operator,1,units,28.00,hour,0,minutes,10,setups/hour,0.97,0,0,4,MachineOperation,0,0,0,mm,0,N/A,0,kW,0,0,Multi-axis CNC certified
+RES-010,Welder,Worker,Certified Welder,1,units,32.00,hour,0,minutes,8,welds/hour,0.95,0,0,4,Welding,0,0,0,mm,0,N/A,0,kW,0,0,AWS certified welder

@@ -1,0 +1,4 @@
+OrderId,OrderName,OrderType,PartId,Quantity,QuantityUnits,Priority,OrderDate,RequestedDate,PromisedDate,Status,CustomerId,JobId,Notes
+ORD-001,Customer Order ABC-12345,CustomerOrder,PART-010,5,EA,1,2025-08-15,2025-08-25,2025-08-24,InProgress,CUST-001,JOB-001,Pump order from ABC Corp
+ORD-002,Stock Replenishment SR-67,StockOrder,PART-003,20,EA,2,2025-08-16,2025-08-22,2025-08-21,Scheduled,Internal,JOB-002,Impeller stock build
+ORD-003,Maintenance Order MO-89,MaintenanceOrder,None,1,EA,1,2025-08-18,2025-08-19,2025-08-19,Scheduled,Internal,JOB-004,CNC preventive maintenance

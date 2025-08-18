@@ -1,0 +1,11 @@
+LayoutId,LayoutName,Description,AreaLength,AreaWidth,AreaHeight,AreaUnits,ResourceId,PositionX,PositionY,PositionZ,Orientation,LocationId,LocationName,LocationType,Notes
+LAY-001,Main Production Floor,Primary manufacturing area,50,30,8,meters,None,0,0,0,0,LOC-001,Production Floor,ProductionArea,Main factory floor
+LAY-002,Cutting Area,Laser cutting work area,15,10,8,meters,RES-001,5,5,0,0,LOC-002,Cutting Station,WorkCenter,Laser cutting zone
+LAY-003,Machining Area,CNC machining work area,12,8,8,meters,RES-002,20,5,0,90,LOC-003,Machining Center,WorkCenter,CNC milling area
+LAY-004,Welding Area,Welding and fabrication area,10,8,8,meters,RES-003,35,5,0,180,LOC-004,Welding Station,WorkCenter,MIG welding area
+LAY-005,Paint Booth Area,Surface treatment area,8,6,8,meters,RES-004,45,5,0,0,LOC-005,Paint Booth,WorkCenter,Spray painting area
+LAY-006,Assembly Area,Final assembly work area,10,6,8,meters,RES-005,25,15,0,270,LOC-006,Assembly Station,WorkCenter,Manual assembly area
+LAY-007,Quality Lab,Inspection and testing area,8,8,8,meters,RES-008,5,25,0,0,LOC-007,QC Laboratory,QualityArea,CMM and testing
+LAY-008,Raw Material Storage,Incoming material storage,15,8,8,meters,None,5,35,0,0,LOC-008,Raw Material Store,StorageArea,Incoming materials
+LAY-009,Finished Goods Storage,Completed product storage,12,8,8,meters,None,35,35,0,0,LOC-009,Finished Goods Store,StorageArea,Outgoing products
+LAY-010,Tool Crib,Tooling and fixture storage,6,4,8,meters,None,15,25,0,0,LOC-010,Tool Storage,StorageArea,Cutting tools and fixtures
